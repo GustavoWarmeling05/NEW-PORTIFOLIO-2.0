@@ -1,0 +1,90 @@
+@media (max-width: 1470px) {
+    .segundafoto img {
+        width: 95%;
+    }
+
+    .redes-sociais img {
+        width: 7%;
+    }
+}
+
+@media (max-width: 600px) {
+/* PRIMEIRA PARTE */
+    .parte-1 {
+        width: 100%;
+        display: grid;
+        margin: auto;
+        border-bottom: 4px solid;
+        border-color: white;
+    }
+
+    .red {
+        margin: auto;
+        width: 100%;
+    }
+
+    .nomegu {
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .redes-sociais img {
+        width: 15%;
+        margin-bottom: 6%;
+    }
+
+    /* SEGUNDA PARTE */
+    .parte-2 {
+        display: grid;
+        margin: auto;
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    .texto {
+        font-size: 4.5em;
+        display: block;
+        margin: auto;
+    }
+    
+    .segundafoto {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+    .segundafoto img {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+/* TERCEIRA PARTE */
+    .parte-3 {
+        padding-top: 50%;
+        padding-bottom: 60%;
+    }
+
+    .parte-3 h3 {
+        font-size: 6em;
+    }
+    
+    .parte-3 button {
+        width: 900px;
+        height: 250px;
+        margin-top: 50px;
+        font-size: 3em;
+    }
+
+    .parte-4 {
+        text-align: center;
+        font-size: 3em;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    footer {
+        font-size: 2.2em;
+        padding: 1em;
+    }
+}

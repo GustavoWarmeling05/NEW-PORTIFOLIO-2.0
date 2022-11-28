@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(97, 0, 0);
+}
+
+p {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* PRIMEIRA PARTE */
+.parte-1 {
+    width: 100%;
+    height: 100%;
+    min-width: 1400px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid;
+    border-color: white;
+}
+
+.red {
+    width: 40%;
+}
+
+.red img {
+    width: 100%;
+}
+
+.nomegu {
+    background-color: black;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.redes-sociais img {
+    width: 5%;
+}
+
+.redes-sociais img:hover {
+    width: 7%;
+    transition: all 1s;
+}
+
+/* SEGUNDA PARTE */
+.parte-2 {
+    width: 100%;
+    height: 100%;
+    min-width: 1400px;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.texto {
+    width: 70%;
+    font-size: 2.5em;
+    margin-top: 4%;
+    margin-left: 2%;
+    color: white;
+}
+
+.segundafoto {
+    width: 30%;
+}
+
+.segundafoto img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.quem {
+    text-align: center;
+}
+
+.bio {
+    margin-top: 4%;
+}
+
+/* TERCEIRA PARTE */
+.parte-3 {
+    width: 100%;
+    height: 100%;
+    min-width: 1400px;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-color: white;
+
+}
+
+.parte-3 h3 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.parte-3 button {
+    width: 450px;
+    height: 100px;
+    background-color: rgb(121, 0, 0);
+    color: white;
+    border-radius: 8px;
+    border: 2px solid;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.parte-3 button:hover {
+    background-color: rgb(87, 0, 0);
+    transition: 1s;
+}
+
+/* QUARTA PARTE */
+.parte-4 {
+    width: 100%;
+    height: 100%;
+    min-width: 1400px;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 0.6em;
+    text-align: center;
+    min-width: 1400px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::selection {
+    background-color: orange;
+    color: white;
+}
