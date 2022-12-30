@@ -1,4 +1,5 @@
 @media (max-width: 1470px) {
+    
     .segundafoto img {
         width: 95%;
     }
@@ -9,6 +10,7 @@
 }
 
 @media (max-width: 600px) {
+
 /* PRIMEIRA PARTE */
     .parte-1 {
         width: 100%;
@@ -86,5 +88,9 @@
     footer {
         font-size: 2.2em;
         padding: 1em;
+    }
+
+    .cap img{
+        width: 40%;
     }
 }

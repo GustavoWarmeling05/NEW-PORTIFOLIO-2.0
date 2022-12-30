@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(97, 0, 0);
+    height: 100%;
 }
 
 p {
@@ -18,7 +19,6 @@ p {
 /* PRIMEIRA PARTE */
 .parte-1 {
     width: 100%;
-    height: 100%;
     min-width: 1400px;
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -57,7 +57,6 @@ p {
 /* SEGUNDA PARTE */
 .parte-2 {
     width: 100%;
-    height: 100%;
     min-width: 1400px;
     display: flex;
     padding-top: 2%;
@@ -94,7 +93,6 @@ p {
 /* TERCEIRA PARTE */
 .parte-3 {
     width: 100%;
-    height: 100%;
     min-width: 1400px;
     background-color: black;
     padding-top: 5%;
@@ -132,7 +130,6 @@ p {
 /* QUARTA PARTE */
 .parte-4 {
     width: 100%;
-    height: 100%;
     min-width: 1400px;
     text-align: center;
     color: white;
@@ -140,12 +137,33 @@ p {
     margin-bottom: 5%;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 0.6em;
+/* RODAPÉ */
+.cap {
+    width: 20%;
+}
+
+.cap img {
+    width: 15%;
+    margin-left: 5%;
+}
+
+.cop{
+    width: 80%;
+    display: block;
+    margin: auto;
     text-align: center;
+}
+
+.cop h2 {
+    margin-right: 27%;
+}
+
+footer {
+    background-color: orange;
+    color: white;
     min-width: 1400px;
+    display: flex;
+    margin: auto;
 }
 
 ::-webkit-scrollbar {
